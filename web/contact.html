@@ -9,82 +9,298 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+        integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+        integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <style>
+        .home-page-header {
+            position: fixed;
+            top: 0;
+            background-color: var(--main-orange);
+        }
+
+        .home-page-header__logo img {
+            background-color: var(--main-white);
+        }
+    </style>
 </head>
 
 <body>
     <section class="contact-page">
-        <div class="container container-fluid">
-            <div class="contact-header">
-                <div class="row m-2-hor">
-                    <div class="col-md-12" >
-                        <h1 style="font-weight:700">Địa chỉ liên hệ</h1>
-                    </div>                   
+        <div class=" container-fluid">
+            <div class="header-all">
+                <div class="header-part">
+                    <header class="home-page-header">
+                        <a href="/" class="home-page-header__logo">
+                            <img src="./assets/images/logo.png" alt="">
+                            <span class="school-intro">Trường Đại học FPT - Phân hiệu Thành phố Hồ Chí Minh</span>
+                        </a>
+                    </header>
+                    <div class="menu-right">
+                        <div class="menu-icon">
+                            <div class="menu-icon-line1"></div>
+                            <div class="menu-icon-line2"></div>
+                            <div class="menu-icon-line3"></div>
+                        </div>
+                    </div>
+                    <div class="menu-detail">
+                        <div class="menu-wrap">
+                            <div class="menu-close-button">
+
+                            </div>
+                            <div class="menu-search">
+                                <form action="">
+                                    <div class="menu-search-wrap">
+                                        <input type="text" placeholder="Tìm kiếm">
+                                        <button type="submit">
+                                            <i class="fas fa-search"></i>
+                                        </button>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="menu-items">
+                                <ul>
+                                    <li>
+                                        <a href="">Trang chủ</a>
+                                    </li>
+                                    <li>
+                                        <a href="projects.html">Đồ án tốt nghiệp</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Đồ án chuyên ngành</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Bài viết</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Liên hệ</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="menu-contact">
+                                <div>
+                                    <a href="tel:02873005588">(028) 73005588</a>
+                                </div>
+                                <div>
+                                    <a href="mailto:daihoc.hcm@fpt.edu.vn">daihoc.hcm@fpt.edu.vn</a>
+                                </div>
+                                <div>
+                                    <a href="">Lô E2a-7, Đường D1, Khu Công nghệ cao, P.Long Thạnh Mỹ, Tp. Thủ Đức,
+                                        TP.HCM.</a>
+                                </div>
+                            </div>
+                            <div class="menu-footer">
+                                <span>Theo dõi ngay:</span>
+                                <span class="menu-footer-link">
+                                    <span><i class="fab fa-facebook-f"></i></span>
+                                    <span><i class="fas fa-globe"></i></span>
+                                    <span><i class="fab fa-twitter"></i></span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="gg-map">
-                    <p><iframe class="map-location" width="500" height="450" style="border:0" loading="lazy" allowfullscreen
-                        src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJsQdrFzEndTERXq6bN0uyUrc&key=AIzaSyB84c9iamGOYG9vTsHkmBLGhjaKBlRIzTI">
-                    </iframe></p>            
-                </div> 
-            </div>           
-            <div class="row">
-                <div class="c-column--left">
-                    <div class="col-md-12">
-                        <div class="contact-info">
-                            <div class="contact-info__header" style="padding-bottom: 10px;">
-                                <h1>Địa chỉ cơ sở</h1>
-                            </div>
-                            <div class="contact-info__body">
-                                <div class="c-location" style="padding-bottom: 10px;">
-                                    <i class="contact-location-icon bi bi-geo-alt-fill">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
-                                            <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
-                                          </svg>
-                                    </i>
-                                    <span>
-                                        Lô E2a-7, Đường D1, Khu Công Nghệ Cao, Long Thạnh Mỹ, Thành Phố Thủ Đức, Thành phố Hồ Chí Minh 
-                                    </span>
-                                </div>    
-                                <div class="c-email" style="padding-bottom: 10px;">
-                                    <i class="contact-email-icon bi bi-envelope">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
-                                            <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
-                                          </svg>
-                                    </i>
-                                    <span>ourteam@gmail.com</span>
-                                </div>
-                                <div class="c-phone" style="padding-bottom: 10px;">
-                                    <i class="contact-phone-icon bi bi-telephone">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
-                                            <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
-                                          </svg>
-                                    </i>
-                                    <span>0123456789</span>
-                                </div>                   
-                            </div>
+            <div class="container" style="padding-bottom: 50px;">
+                <div class="contact-header" style="padding-top: 100px;">
+                    <div class="row m-2-hor">
+                        <div class="col-md-12">
+                            <h1 style="font-weight:700">Địa chỉ liên hệ</h1>
                         </div>
                     </div>
-                </div>  
-                <div class="c-column--right">
-                    <div class="col-md-12">
-                        <div class="message-rely">
-                            <form action="#">
-                                <div class="form-group me-re-name">
-                                    <input class="contact-name-icon" type="text" placeholder="Họ và tên" >
-                                </div> 
-                                <div class="form-group me-re-email">
-                                    <input class="contact-email-icon" type="text" placeholder="Your email">
-                                </div>                              
-                                <div class="form-group me-re-message">
-                                    <input class="contact-message-icon" type="text" placeholder="Your message">
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                    
                 </div>
-            </div>            
-        </div>            
+                <div class="row">
+                    <div class="gg-map">
+                        <p><iframe class="map-location" width="500" height="450" style="border:0" loading="lazy"
+                                allowfullscreen
+                                src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJsQdrFzEndTERXq6bN0uyUrc&key=AIzaSyB84c9iamGOYG9vTsHkmBLGhjaKBlRIzTI">
+                            </iframe></p>
+                    </div>
+                </div>
+                <div class="row" style="display: flex;">
+                    <div class="c-column--left col-md-6">
+                        
+                            <div class="devider" style="width: 35%;"></div>
+                            <div class="contact-info">
+                                <div class="contact-info__header" style="padding-bottom: 10px;">
+                                    <h1 style="font-weight: 700;">Địa chỉ cơ sở</h1>
+                                </div>
+                                <div class="contact-info__body">
+                                    <div class="c-location" style="padding-bottom: 15px;">
+                                        <i class="contact-location-icon bi bi-geo-alt-fill">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"
+                                                fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" />
+                                            </svg>
+                                        </i>
+                                        <span>
+                                            Lô E2a-7, Đường D1, Khu Công Nghệ Cao, Long Thạnh Mỹ, Thành Phố Thủ Đức,
+                                            Thành phố Hồ Chí Minh
+                                        </span>
+                                    </div>
+                                    <div class="c-email" style="padding-bottom: 15px;">
+                                        <i class="contact-email-icon bi bi-envelope">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"
+                                                fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
+                                            </svg>
+                                        </i>
+                                        <span>ourteam@gmail.com</span>
+                                    </div>
+                                    <div class="c-phone" style="padding-bottom: 15px;">
+                                        <i class="contact-phone-icon bi bi-telephone">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"
+                                                fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
+                                            </svg>
+                                        </i>
+                                        <span>0123456789</span>
+                                    </div>
+                                </div>
+                            </div>
+                       
+                    </div>
+                    <div class="c-column--right col-md-6">                     
+                            <div class="devider" style="width: 35%;"></div>
+                            <div class="message-reply">
+                                <div class="message-reply-header" style="padding-bottom: 10px;">
+                                    <h1 style="font-weight: 700;">Đóng góp ý kiến của bạn</h1>
+                                </div>
+                                <form action="#">
+                                    <div class="form-group me-re-name">
+                                        <i class="message-name-icon bi bi-person-fill">
+                                            <svg style="margin-top: 8px; margin-left: 5px;" xmlns="http://www.w3.org/2000/svg" width="24" height="16"
+                                                fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+                                            </svg>
+                                        </i>
+                                        <textarea class="name-field col-md-4 col-lg-4" placeholder="Họ và tên" rows="1" cols="50px" 
+                                            style="border: none; outline:none; padding-top: 5px; padding-left: 3px;"></textarea>
+                                    </div>
+                                    <div class="form-group me-re-email">
+                                        <i class="message-email-icon bi bi-envelope">
+                                            <svg style="margin-top: 8px; margin-left: 5px;" xmlns="http://www.w3.org/2000/svg" width="24" height="16"
+                                                fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
+                                            </svg>
+                                        </i>
+                                        <textarea class="email-field col-md-4 col-lg-4" placeholder="Email" rows="1" 
+                                            class="contact-email-icon" style="border: none; outline: none; padding-top: 5px; padding-left: 3px;"
+                                            ></textarea>
+                                    </div>
+                                    <div class="form-group me-re-message">
+                                        <i class="message-content-icon bi bi-chat-left-text" >
+                                            <svg style="margin-top: 10px; margin-left: 5px;" xmlns="http://www.w3.org/2000/svg" width="24" height="16"
+                                                fill="currentColor" class="bi bi-chat-left-text" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M14 1a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H4.414A2 2 0 0 0 3 11.586l-2 2V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12.793a.5.5 0 0 0 .854.353l2.853-2.853A1 1 0 0 1 4.414 12H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z" />
+                                                <path
+                                                    d="M3 3.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zM3 6a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9A.5.5 0 0 1 3 6zm0 2.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5z" />
+                                            </svg>
+                                        </i>
+                                        <textarea class="content-field col-md-4 col-lg-4" placeholder="Nội dung" rows="7"                                   
+                                            style="border: none; outline: none; padding-top: 5px; padding-left: 3px;"></textarea>
+                                    </div>
+                                    <button type="submit" style="color: white" >Gửi</button>
+                                </form>
+                            </div>                        
+                        
+                    </div>                    
+                </div>
+            </div>
+            <div class="footer">
+                <div class="container">
+                    <div class="footer-content row">
+                        <div class="footer-content-first col-md-4">
+                            <h3>Về Đại Học FPT</h3>
+                            <p>Đại học FPT hướng tới xây dựng mô hình của một trường Đại học thế hệ mới; gắn liền đào
+                                tạo với thực tiễn cuộc sống và nhu cầu nhân lực của đất nước, góp phần đưa Giáo dục Việt
+                                Nam tiến tới ngang tầm các nước trên thế giới.</p>
+                            <a href="mailto:daihoc.hcm@fpt.edu.vn">daihoc.hcm@fpt.edu.vn</a>
+                        </div>
+                        <div class="footer-content-detail col-md-2">
+                            <span>Liên Kết Hỗ Trợ</span>
+                            <div><a href="">Trang Chủ</a></div>
+                            <div><a href="">Đồ Án Tốt Nghiệp</a></div>
+                            <div><a href="">Bài Viết</a></div>
+                        </div>
+                        <div class="footer-content-detail col-md-2">
+                            <span>Tính Năng</span>
+                            <div><a href="">Đăng Ký</a></div>
+                            <div><a href="">Đăng Nhập</a></div>
+                            <div><a href="">Gửi Bài Viết</a></div>
+                            <div><a href="">Liên Hệ</a></div>
+                        </div>
+                        <div class="col-md-4">
+                            <span>Theo Dõi Trường Đại Học FPT Tại: </span>
+                            <div class="follow-social">
+                                <p>Cung cấp năng lực cạnh tranh toàn cầu cho đông đảo người học, góp phần mở mang bờ cõi
+                                    trí tuệ đất nước</p>
+                                <div class="social">
+                                    <a href="">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                    <a href="">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                    <a href="">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-end container-fluid">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <p>Trường Đại học FPT Phân hiệu Thành phố Hồ Chí Minh</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="overlay-page" id="overlay-page"></div>
+        <div id="loader" class="loader">
+            <div class="loading">
+                <div class="loading__letter">Đ</div>
+                <div class="loading__letter">ạ</div>
+                <div class="loading__letter">i</div>
+                <div class="loading__letter">h</div>
+                <div class="loading__letter">ọ</div>
+                <div class="loading__letter">c</div>
+                <div class="loading__letter">F</div>
+                <div class="loading__letter">P</div>
+                <div class="loading__letter">T</div>
+                <div class="loading__letter">.</div>
+                <div class="loading__letter">.</div>
+                <div class="loading__letter">.</div>
+            </div>
+        </div>
     </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js"
+        integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous"
+        async></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="./assets/js/app.js"></script>
 </body>
