@@ -207,7 +207,6 @@ a.article:hover {
 
 .menu-search {
     display: flex;
-    margin-left: 20px;
     background-color: white;
     border-radius: 3px;
 }
@@ -302,7 +301,7 @@ a.article:hover {
 
 .manage-project {
     display: flex;
-    float: right;
+    float: left;
 }
 
 .add-project {

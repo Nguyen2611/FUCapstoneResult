@@ -136,12 +136,11 @@
                             <table class="table">
                                 <thead>
                                     <tr>
-                                        <th style="padding-right: 20px;">STT</th>
-                                        <th style="padding-right: 20px;">Họ và tên</th>
-                                        <th style="padding-right: 20px;">Email</th>
-                                        <th style="padding-right: 20px;">Hình ảnh</th>
-                                        <th style="padding-right: 20px;">Chuyên ngành</th>
-                                        <th style="padding-right: 20px;">Tên đề tài tham gia</th>
+                                        <th>STT</th>
+                                        <th>Họ và tên</th>
+                                        <th>Email</th>
+                                        <th>Chuyên ngành</th>
+                                        <th>Tên đề tài tham gia</th>
                                         <th>Thao tác</th>
                                     </tr>
                                 </thead>
@@ -150,10 +149,11 @@
                                         <td>1</td>
                                         <td>Nguyễn Khắc Trung Nguyên</td>
                                         <td>nguyennktse150207@fpt.edu.vn</td>
-                                        <td>Chỗ này để hình</td>
                                         <td>Kỹ thuật phần mềm</td>
                                         <td>Hệ thống camera an ninh trong chung cư</td>
                                         <td>
+                                            <button id="delete_user" style="border: none; background: none; ">Chỉnh sửa</button>
+                                            <span>|</span>
                                             <button id="delete_user" style="border: none; background: none;">Xóa</button>
                                         </td>
                                     </tr>
@@ -161,10 +161,11 @@
                                         <td>1</td>
                                         <td>Võ Đức Minh</td>
                                         <td>minhvdse123456@fpt.edu.vn</td>
-                                        <td>Chỗ này để hình</td>
                                         <td>Kỹ thuật phần mềm</td>
                                         <td>Hệ thống camera an ninh trong chung cư</td>
                                         <td>
+                                            <button id="delete_user" style="border: none; background: none; ">Chỉnh sửa</button>
+                                            <span>|</span>
                                             <button id="delete_user" style="border: none; background: none;">Xóa</button>
                                         </td>
                                     </tr>
@@ -172,10 +173,11 @@
                                         <td>1</td>
                                         <td>Trần Quang Quyền</td>
                                         <td>quyentqse98765@fpt.edu.vn</td>
-                                        <td>Chỗ này để hình</td>>
                                         <td>Kỹ thuật phần mềm</td>
                                         <td>Hệ thống camera an ninh trong chung cư</td>
                                         <td>
+                                            <button id="delete_user" style="border: none; background: none; ">Chỉnh sửa</button>
+                                            <span>|</span>
                                             <button id="delete_user" style="border: none; background: none;">Xóa</button>
                                         </td>
                                     </tr>
@@ -183,10 +185,11 @@
                                         <td>1</td>
                                         <td>Lê Hồng Anh</td>
                                         <td>anhlhse234235@fpt.edu.vn</td>
-                                        <td>Chỗ này để hình</td>
                                         <td>Kỹ thuật phần mềm</td>
                                         <td>Hệ thống camera an ninh trong chung cư</td>
                                         <td>
+                                            <button data-toggle="modal" data-target="#addModal" id="delete_user" style="border: none; background: none; ">Chỉnh sửa</button>
+                                            <span>|</span>
                                             <button id="delete_user" style="border: none; background: none;">Xóa</button>
                                         </td>
                                     </tr>
@@ -228,11 +231,6 @@
             </select>
             <label for="">Tên đề tài tham gia</label><br>
             <input type="text">
-            <label for="">Ảnh của sinh viên</label>
-            <div class="project-add-upload__image">
-                <label style="margin: 0;" for="file"><i class="fas fa-cloud-upload-alt"></i>Tải Ảnh Lên</label>
-                <input type="file" name="file" id="file" placeholder="Tải Ảnh Lên">
-            </div>
 
             <div class="add-project-submit">
                 <button type="submit">Thêm</button>
